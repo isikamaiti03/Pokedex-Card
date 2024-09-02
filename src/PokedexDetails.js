@@ -11,14 +11,6 @@ const PokedexDetails = () => {
   return (
    <>
        <header className='headerClass'>
-        {/* <div style={{paddingLeft:"18px",fontSize:"22px"}}><button style={{fontSize:"18px",height:"28px",
-          cursor:"pointer",width:"30px",color:"black",border:"none", backgroundColor:"white",borderRadius:"50%",marginRight:"15px",
-        }} ><KeyboardArrowLeftTwoToneIcon/></button><span style={{fontWeight:"750",marginRight:"5px"}}>{prevnumber}</span> <span style={{color:"rgb(75, 73, 73)",fontWeight:"790"}}>{prevtitle}</span></div>
-        <div style={{paddingLeft:"40px",fontSize:"22px"}}><span style={{color:"rgb(75, 73, 73)",fontWeight:"790",marginRight:"5px"}}>{aftertitle}</span><span style={{fontWeight:"750"}}>{afternumber}</span>
-        <ChevronRightTwoToneIcon  style={{fontSize:"18px",height:"28px"
-         ,cursor:"pointer" ,width:"30px",color:"black",border:"none", backgroundColor:"white",borderRadius:"50%",marginLeft:"15px",
-        }}/>
-        </div> */}
         <h2>Pokémon</h2>
        </header> 
       <h3 className='text-center' >{title}<span style={{fontSize:"30px",color:"rgba(75, 73, 73,0.7)",font:"sans-serif",marginLeft:"6px"}}>{number}</span></h3>
