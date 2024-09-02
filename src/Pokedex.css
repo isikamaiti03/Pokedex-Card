@@ -1,0 +1,39 @@
+.CardMain{
+    width: 13rem;
+    height:270px ;
+    margin-top:50px;
+    border:none;
+    transition: .5s;
+}
+.CardMain:hover{
+    margin-top:40px;
+}
+.CardMain.with-border {
+    border: 3px solid black;
+}
+.Imagediv{
+    background-color:rgba(196,196,196,0.5);
+    border-radius:5px;
+    cursor: pointer;
+}
+.div1st{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 80px;
+    padding: 0 10px;
+    font-size: 14px;  
+    border: none;
+    border-radius: 5px; 
+    background-color: #007bff;
+    text-align: center; 
+}
+.Numberid{
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0.7;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
